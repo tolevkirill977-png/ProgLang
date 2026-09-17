@@ -1,6 +1,6 @@
-public class Message {
-    Message() {}
-    void message(String mes) {
-        System.out.println(mes);
+public class Message{
+    public static void message(String mes){
+	System.out.println(mes);
     }
 }
+
