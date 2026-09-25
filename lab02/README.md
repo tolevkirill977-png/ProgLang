@@ -6,25 +6,25 @@
 
 **Ответ:**
 - Для C++:
-  int
-  if
-  return
-  class
-  while
+  - int
+  - if
+  - return
+  - class
+  - while
   
 - Для Java:
-  public
-  static
-  void
-  new
-  final
+  - public
+  - static
+  - void
+  - new
+  - final
 
 - Для Python:
-  def
-  import
-  as
-  True
-  False
+  - def
+  - import
+  - as
+  - True
+  - False
 
 ### Задание 2 **(2)**
 *Рассмотрим следующие фрагменты программ на языках С++ и Python.*
