@@ -40,6 +40,63 @@
 
 *Записанные программы сохраните в папке с номером задания. В отчет запишите пояснения к работе программ.*
 
+#### Пример 1 — `int` в `bool`
+
+**C++:**
+```cpp
+#include <iostream>
+
+int main() {
+    int n = 42;
+    bool flag = n;
+    std::cout << flag << '\n';
+    return 0;
+}
+```
+
+Программа компилируется: ненулевое `int` неявно преобразуется в `true`.
+
+**Java:**
+```java
+public class Main {
+    public static void main(String[] args) {
+        int n = 42;
+        boolean flag = n; // ошибка
+    }
+}
+```
+
+В Java `int` нельзя неявно преобразовать в `boolean`.
+
+#### Пример 2 — `int` в `char`
+
+**C++:**
+```cpp
+#include <iostream>
+
+int main() {
+    int n = 65;
+    char c = n;
+    std::cout << c << '\n';
+
+    return 0;
+}
+```
+
+C++ допускает неявное преобразование `int` в `char`.
+
+**Java:**
+```java
+public class Main1 {
+    public static void main(String[] args) {
+        int n = 65;
+        char c = n; // ошибка
+    }
+}
+```
+
+В Java для переменной типа `int` требуется явное преобразование: `char c = (char)n;`
+
 ### Задание 4 **(1)**
 
 *Рассмотрите следующий фрагмент программы.*
